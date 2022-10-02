@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="15dp">
+
+    <TextView
+        android:id="@+id/nameTvEventItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/EventItemStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/descTvEventItem"
+        style="@style/EventItemStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nameTvEventItem" />
+    
+    <TextView
+        android:id="@+id/timeTvEventItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/EventItemStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf = "@id/descTvEventItem" />
+
+    <TextView
+        android:id="@+id/urlTvEventItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/EventItemStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/timeTvEventItem" />
+
+    <ImageView
+        android:id="@+id/deleteIvEventItem"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/delete_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

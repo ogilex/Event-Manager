@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cities">
+        <item>Amsterdam</item>
+        <item>Andorra</item>
+        <item>Astrakhan</item>
+        <item>Athens</item>
+        <item>Belgrade</item>
+        <item>Berlin</item>
+        <item>Brussels</item>
+        <item>Bucharest</item>
+        <item>Budapest</item>
+        <item>Chisinau</item>
+        <item>Copenhagen</item>
+        <item>Dublin</item>
+        <item>Gibraltar</item>
+        <item>Helsinki</item>
+        <item>Istanbul</item>
+        <item>Kaliningrad</item>
+        <item>Kiev</item>
+        <item>Kirov</item>
+        <item>Lisbon</item>
+        <item>London</item>
+        <item>Luxembourg</item>
+        <item>Madrid</item>
+        <item>Malta</item>
+        <item>Minsk</item>
+        <item>Monaco</item>
+        <item>Moscow</item>
+        <item>Oslo</item>
+        <item>Paris</item>
+        <item>Prague</item>
+        <item>Riga</item>
+        <item>Rome</item>
+        <item>Samara</item>
+        <item>Saratov</item>
+        <item>Simferopol</item>
+        <item>Sofia</item>
+        <item>Stockholm</item>
+        <item>Tallinn</item>
+        <item>Tirane</item>
+        <item>Ulyanovsk</item>
+        <item>Uzhgorod</item>
+        <item>Vienna</item>
+        <item>Vilnius</item>
+        <item>Volgograd</item>
+        <item>Warsaw</item>
+        <item>Zaporozhye</item>
+        <item>Zurich</item>
+    </string-array>
+</resources>
